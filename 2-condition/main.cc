@@ -4,7 +4,7 @@ using namespace std;
 
 // // condition 
 // // -> if
-// // -> if else
+// // -> if elseTake a number and determine whether it is even or odd.
 // // -> if else if else
 // // -> switch case
 // // -> nested if else
@@ -108,3 +108,15 @@ using namespace std;
 //         break;
 //     }
 // }
+
+
+// ternary operator  -------->
+
+int main () {
+    int age = 10;
+
+    ( age >= 18 ) ? cout<<"you are eligible ": cout<<"you are not eligiable";
+    
+}
+
+
