@@ -16,6 +16,10 @@ int cToFh (int far) {
     return cel;
 }
 
+void userName ( string name  ="Trax" ){
+    cout <<" Hello" << name;
+}
+ 
 int main () {
 
     int result  = additionSomeNumber(1,2,3);
@@ -25,6 +29,8 @@ int main () {
 
     int resultFar  =  cToFh (40);
     cout << resultFar  << endl;
+
+    userName();
 
 
 
